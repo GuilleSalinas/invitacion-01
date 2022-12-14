@@ -1,0 +1,571 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#body {
+  width: calc(100vw - (100vw - 100%));
+}
+
+:root {
+  /* Colores */
+  --color-1: #575756;
+  --color-2: #b5976b;
+  --color-3: #666666;
+  --color-4: #ffb3e7;
+  --color-5: #ffffff;
+  --color-6: #3bb7b2;
+  
+  /* Fuentes */
+  --fuente-1: "DM Serif Display", serif;
+  --fuente-2: "Lora", serif;
+  --fuente-3: "DM Sans", sans-serif;
+  --fuente-4: "Fraunces", serif;
+  --fuente-5: "Playfair Display", serif;
+  --fuente-6: "Open Sans", sans-serif;
+  --fuente-7: "Dancing Scfont-familyript", Sans-serif;
+
+  /* Grosor de fuente */
+  --weight-font-regular: 400;
+  --weight-font-medium: 500;
+  --weight-font-bolt900: 900;
+}
+
+
+
+/* Portada */
+section.portada {
+  max-width: 100%;
+  background-image: url("../img/portada-4.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 90px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+
+section.portada .adorno {
+  position: absolute;
+  width: 360px;
+  height: auto;
+  top: -90px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+section.portada .content-portada span.fecha {
+  font-family: var(--fuente-5);
+  font-weight: var(--weight-font-bolt900);
+  color: var(--color-6);
+  display: table;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 30px;
+}
+
+
+
+section.portada .content-portada h1 {
+  color: var(--color-4);
+  font-family: "Dancing Script", Sans-serif;
+  font-weight: var(--weight-font-regular);
+  width: 100%;
+  text-align: center;
+  font-size: 110px;
+  line-height: 110px;
+  margin-bottom: 0;
+}
+
+section.portada .content-portada h2 {
+  font-family: var(--fuente-5);
+  font-weight: var(--weight-font-bolt900);
+  color: var(--color-6);
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 95px;
+}
+
+section.portada .box-nombres-fecha-portada .line {
+  background-color: var(--color-2);
+  height: 10px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+section.portada .box-nombres-fecha-portada h1 span {
+  font-family: var(--fuente-7);
+  font-weight: var(--weight-font-regular);
+  background-color: var(--color-2);
+  color: var(--color-4);
+  display: inline-block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+}
+
+/* mariposa de portada */
+section.portada .box-nombres-fecha-portada img {
+  width: 150px;
+  margin: 70px 0;
+}
+
+section.portada .box-frase-portada {
+  margin-top: 35px;
+}
+
+section.portada .box-frase-portada p {
+  color: var(--color-4);
+  font-family: var(--fuente-2);
+  font-weight: var(--weight-font-regular);
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+section.portada .box-frase-portada p img {
+  width: 30px;
+  margin: 10px 0;
+}
+
+section.portada .flecha-continuar {
+  width: 50px;
+  position: absolute;
+  bottom: -80px;
+}
+
+/* -------  Reloj Contador  -------- */
+section.clock_cont {
+  background-color: #e7f5f2;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  padding: 25px 10px;
+}
+section.clock_cont .countdown {
+  margin: 0 0 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4c4c4c;
+  font-family: "Dancing Script", Sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  text-transform: none;
+}
+section.clock_cont .countdown .time {
+  padding: 0 10px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------- cena y fiesta -------------- */
+section.cena {
+  /* background: linear-gradient(to bottom, rgba(163, 27, 27, 0.5),rgba(78, 4, 4, 0.5)),url("../img/corazones_fondo.jpg"); */
+  background-image: url("../img/fondo.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+/* ---------- dress -------------- */
+
+section.dress {
+  /* background: linear-gradient(to bottom, rgba(78, 4, 4, 0.5),rgba(163, 27, 27, 0.5)),url("../img/corazones_fondo.jpg"); */
+  background-image: url("../img/fondo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+/* ---------- confirmar -------------- */
+
+section.confirmar {
+  background-image: url("../img/fondo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+/* ---------- album -------------- */
+
+section.album {
+  background-image: url("../img/fondo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+/* ---------- canciones que no pueden faltar -------------- */
+
+section.canciones {
+  background-image: url("../img/fondo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+/* ---------- regalos -------------- */
+
+section.regalos {
+  background-image: url("../img/fondo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 48vh;
+  padding-top: 1px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+/* ---------- instagram -------------- */
+
+section.instagram {
+  background-image: url("../img/instagram.jpg");
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.25), rgb(0 0 0 / 0.1)),
+    url("../img/instagram.jpg");
+  /* opacity: .55; */
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  position: relative;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 10px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+/* ---------- los espero -------------- */
+
+section.los_espero {
+  background-image: url("../img/fondo.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  padding-top: 25px;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+.playful span {
+  position: relative;
+  color: #5362f6;
+  text-shadow: 0.25px 0.25px #e485f8, 0.5px 0.5px #e485f8, 0.75px 0.75px #e485f8,
+    1px 1px #e485f8, 1.25px 1.25px #e485f8, 1.5px 1.5px #e485f8,
+    1.75px 1.75px #e485f8, 2px 2px #e485f8, 2.25px 2.25px #e485f8,
+    2.5px 2.5px #e485f8, 2.75px 2.75px #e485f8, 3px 3px #e485f8,
+    3.25px 3.25px #e485f8, 3.5px 3.5px #e485f8, 3.75px 3.75px #e485f8,
+    4px 4px #e485f8, 4.25px 4.25px #e485f8, 4.5px 4.5px #e485f8,
+    4.75px 4.75px #e485f8, 5px 5px #e485f8, 5.25px 5.25px #e485f8,
+    5.5px 5.5px #e485f8, 5.75px 5.75px #e485f8, 6px 6px #e485f8;
+  animation: scatter 1.75s infinite;
+}
+
+.playful span:nth-child(2n) {
+  color: #ed625c;
+  text-shadow: 0.25px 0.25px #f2a063, 0.5px 0.5px #f2a063, 0.75px 0.75px #f2a063,
+    1px 1px #f2a063, 1.25px 1.25px #f2a063, 1.5px 1.5px #f2a063,
+    1.75px 1.75px #f2a063, 2px 2px #f2a063, 2.25px 2.25px #f2a063,
+    2.5px 2.5px #f2a063, 2.75px 2.75px #f2a063, 3px 3px #f2a063,
+    3.25px 3.25px #f2a063, 3.5px 3.5px #f2a063, 3.75px 3.75px #f2a063,
+    4px 4px #f2a063, 4.25px 4.25px #f2a063, 4.5px 4.5px #f2a063,
+    4.75px 4.75px #f2a063, 5px 5px #f2a063, 5.25px 5.25px #f2a063,
+    5.5px 5.5px #f2a063, 5.75px 5.75px #f2a063, 6px 6px #f2a063;
+  animation-delay: 0.3s;
+}
+
+.playful span:nth-child(3n) {
+  color: #ffd913;
+  text-shadow: 0.25px 0.25px #6ec0a9, 0.5px 0.5px #6ec0a9, 0.75px 0.75px #6ec0a9,
+    1px 1px #6ec0a9, 1.25px 1.25px #6ec0a9, 1.5px 1.5px #6ec0a9,
+    1.75px 1.75px #6ec0a9, 2px 2px #6ec0a9, 2.25px 2.25px #6ec0a9,
+    2.5px 2.5px #6ec0a9, 2.75px 2.75px #6ec0a9, 3px 3px #6ec0a9,
+    3.25px 3.25px #6ec0a9, 3.5px 3.5px #6ec0a9, 3.75px 3.75px #6ec0a9,
+    4px 4px #6ec0a9, 4.25px 4.25px #6ec0a9, 4.5px 4.5px #6ec0a9,
+    4.75px 4.75px #6ec0a9, 5px 5px #6ec0a9, 5.25px 5.25px #6ec0a9,
+    5.5px 5.5px #6ec0a9, 5.75px 5.75px #6ec0a9, 6px 6px #6ec0a9;
+  animation-delay: 0.15s;
+}
+
+.playful span:nth-child(5n) {
+  color: #555bff;
+  text-shadow: 0.25px 0.25px #e485f8, 0.5px 0.5px #e485f8, 0.75px 0.75px #e485f8,
+    1px 1px #e485f8, 1.25px 1.25px #e485f8, 1.5px 1.5px #e485f8,
+    1.75px 1.75px #e485f8, 2px 2px #e485f8, 2.25px 2.25px #e485f8,
+    2.5px 2.5px #e485f8, 2.75px 2.75px #e485f8, 3px 3px #e485f8,
+    3.25px 3.25px #e485f8, 3.5px 3.5px #e485f8, 3.75px 3.75px #e485f8,
+    4px 4px #e485f8, 4.25px 4.25px #e485f8, 4.5px 4.5px #e485f8,
+    4.75px 4.75px #e485f8, 5px 5px #e485f8, 5.25px 5.25px #e485f8,
+    5.5px 5.5px #e485f8, 5.75px 5.75px #e485f8, 6px 6px #e485f8;
+  animation-delay: 0.4s;
+}
+
+.playful span:nth-child(7n),
+.playful span:nth-child(11n) {
+  color: #ff9c55;
+  text-shadow: 0.25px 0.25px #ff5555, 0.5px 0.5px #ff5555, 0.75px 0.75px #ff5555,
+    1px 1px #ff5555, 1.25px 1.25px #ff5555, 1.5px 1.5px #ff5555,
+    1.75px 1.75px #ff5555, 2px 2px #ff5555, 2.25px 2.25px #ff5555,
+    2.5px 2.5px #ff5555, 2.75px 2.75px #ff5555, 3px 3px #ff5555,
+    3.25px 3.25px #ff5555, 3.5px 3.5px #ff5555, 3.75px 3.75px #ff5555,
+    4px 4px #ff5555, 4.25px 4.25px #ff5555, 4.5px 4.5px #ff5555,
+    4.75px 4.75px #ff5555, 5px 5px #ff5555, 5.25px 5.25px #ff5555,
+    5.5px 5.5px #ff5555, 5.75px 5.75px #ff5555, 6px 6px #ff5555;
+  animation-delay: 0.25s;
+}
+
+@keyframes scatter {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.los_espero .text_h3_losespero h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: normal;
+  display: block;
+  width: 100%;
+  /* max-width: 80vw; */
+  /* min-height: 90px; */
+  height: auto;
+  text-align: center;
+  /* margin: 10rem auto; */
+  /* margin: calc(50vh - 5rem) auto; */
+}
+
+/* ---------- footer -------------- */
+
+section.footer {
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
+.prop_ico {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text_description {
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.t_title {
+  margin-bottom: 15px;
+  color: #4c4c4c;
+  font-family: "Dancing Script", Sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.t_color {
+  color: #ffb3e7;
+}
+
+.confirmar_asistencia {
+  color: #8c788d;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.elementor-button-wrapper {
+  border-style: solid;
+  text-decoration: none;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
+.elementor-button-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.elementor-button-text {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-ordinal-group: 11;
+  -ms-flex-order: 10;
+  order: 10;
+  display: inline-block;
+}
+
+.hashtag_mode {
+  color: #1a1aff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.modo-hashtag {
+  color: #353941;
+  font-family: "Dancing Scfont-familyript", Sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: capitalize;
+  /* text-shadow: 0px 0px 12px #444; */
+}
+
+/* footer */
+.elementor-widget-container {
+  margin: 0;
+  padding: 20px 0 20px;
+  background-color: var(--color-4);
+}
+
+.header-first-span {
+  color: #565d6a;
+  font-size: 15px;
+  text-transform: none;
+}
+.header-second-header {
+  font-size: 15px;
+  color: rgb(5, 51, 98);
+}
+
+/* boton */
+.button {
+  padding: 15px 30px;
+}
+
+.btn {
+  width: 180px;
+  border-radius: 50px;
+  display: inline-block;
+  padding-top: 20px;
+  text-decoration: none;
+
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn_music {
+  width: 250px;
+  border-radius: 50px;
+  display: inline-block;
+  padding-top: 20px;
+  text-decoration: none;
+
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn_green {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  fill: #ffb3e7;
+  border-style: solid;
+  border-width: 3px;
+  background-color: var(--color-6);
+  padding: 15px;
+}
+
+/* Boton musica */
+.btn-ms{
+  color: rgb(92, 9, 9);
+  fill-opacity: 1;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  position:fixed;
+  bottom: -45px;
+  right:-45px;
+  /* border-radius:50px; */
+  z-index:100;
+  /* transition: all 300ms ease; */
+}
+
