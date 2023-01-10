@@ -37,7 +37,7 @@
 /* Portada */
 section.portada {
   max-width: 100%;
-  background-image: url("../img/portada-4.jpg");
+  background-image: url("../img/portada-smart.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,100 +48,99 @@ section.portada {
   position: relative;
   align-content: center;
   align-items: center;
+  
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  vertical-align: text-top;  
+  /* background-color: #7bff00; */
 }
 
-
-section.portada .adorno {
-  position: absolute;
-  width: 360px;
-  height: auto;
-  top: -90px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-section.portada .content-portada span.fecha {
+/* mis 15 */
+section.portada .content-portada h2 {
   font-family: var(--fuente-5);
-  font-weight: var(--weight-font-bolt900);
+  font-weight: var(--weight-font-medium);
   color: var(--color-5);
-  display: table;
-  white-space: nowrap;
   width: 100%;
+  text-align: center;
   font-size: 30px;
+
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
+
 }
 
-
-
-
+/* Carme */
 section.portada .content-portada h1 {
-  color: var(--color-4);
+  color: var(--color-5);
   font-family: "Dancing Script", Sans-serif;
-  font-weight: var(--weight-font-regular);
+  font-weight: var(--weight-font-bolt900);
   width: 100%;
   text-align: center;
   font-size: 110px;
-  line-height: 110px;
-  margin-bottom: 0;
+
+  position: absolute;
+  top: 13rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-section.portada .content-portada h2 {
+/* fecha */
+section.portada .content-portada span.fecha {
   font-family: var(--fuente-5);
-  font-weight: var(--weight-font-bolt900);
+  font-weight: var(--weight-font-medium);
   color: var(--color-5);
   width: 100%;
   text-align: center;
   font-size: 30px;
-  line-height: 95px;
+
+  position: absolute;
+  top: 18rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-section.portada .box-nombres-fecha-portada .line {
-  background-color: var(--color-2);
-  height: 10px;
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 10px;
+/* texto portada */
+section.portada .box-frase-portada p {
+  font-family: "Poppins", Sans-serif;
+  font-weight: var(--weight-font-medium);
+  color: var(--color-5);
+  font-weight: 300;
+  padding: 0 15px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+
+  position: absolute;
+  top: 22rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
-section.portada .box-nombres-fecha-portada h1 span {
-  font-family: var(--fuente-7);
+/* section.portada .box-nombres-fecha-portada h1 span {
+  font-family: var(--fuente-5);
   font-weight: var(--weight-font-regular);
   background-color: var(--color-2);
-  color: var(--color-4);
+  color: var(--color-5);
   display: inline-block;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  line-height: 60px;
   font-size: 40px;
-}
+} */
 
 /* mariposa de portada */
-section.portada .box-nombres-fecha-portada img {
+/* section.portada .box-nombres-fecha-portada img {
   width: 150px;
-  margin: 70px 0;
-}
+} */
 
-section.portada .box-frase-portada {
-  margin-top: 35px;
-}
 
-section.portada .box-frase-portada p {
-  color: black;
-  font-family: var(--fuente-2);
-  font-weight: var(--weight-font-regular);
-  font-size: 30px;
-  line-height: 35px;
-  text-align: center;
-  margin-bottom: 0;
-}
 
-section.portada .box-frase-portada p img {
-  width: 30px;
-  margin: 10px 0;
-}
 
 section.portada .flecha-continuar {
   width: 50px;
@@ -279,8 +278,8 @@ section.regalos {
 
 section.instagram {
   background-image: url("../img/instagram.jpg");
-  background: linear-gradient(to bottom, rgb(0 0 0 / 0.25), rgb(0 0 0 / 0.1)),
-    url("../img/instagram.jpg");
+  /* background: linear-gradient(to bottom, rgb(0 0 0 / 0.25), rgb(0 0 0 / 0.1)),
+    url("../img/instagram.jpg"); */
   /* opacity: .55; */
   height: 100%;
   width: 100%;
@@ -293,9 +292,12 @@ section.instagram {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  padding-top: 10px;
+  
   position: relative;
   align-items: center;
+
+  padding-top: 35%;
+  padding-bottom: 50%;
 }
 
 .modo-hashtag {
@@ -492,6 +494,7 @@ section.footer {
   z-index:100;
   /* transition: all 300ms ease; */
 }
+
 
 /*--------- Boton-Modal--------*/
 /*:::Ventana Modal:::*/
