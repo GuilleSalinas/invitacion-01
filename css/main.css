@@ -295,9 +295,41 @@ section.instagram {
   width: 100%;
   padding-top: 10px;
   position: relative;
-  align-content: center;
   align-items: center;
 }
+
+.modo-hashtag {
+  position: absolute;
+  top: 13rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  color: #7bff00;
+  font-family: "Dancing Scfont-familyript", Sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.hashtag_mode {
+  position: absolute;
+  top: 15rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 32px;
+  font-weight: 420;
+  text-transform: uppercase;
+  /* padding-top: 10rem; */
+}
+
 
 /* ---------- los espero -------------- */
 
@@ -388,22 +420,6 @@ section.footer {
   display: inline-block;
 }
 
-.hashtag_mode {
-  color: #1a1aff;
-  font-family: "Poppins", Sans-serif;
-  font-size: 32px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.modo-hashtag {
-  color: #353941;
-  font-family: "Dancing Scfont-familyript", Sans-serif;
-  font-size: 18px;
-  font-weight: 100;
-  text-transform: capitalize;
-  /* text-shadow: 0px 0px 12px #444; */
-}
 
 /* footer */
 .elementor-widget-container {
