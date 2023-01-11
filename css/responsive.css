@@ -1,17 +1,4 @@
 /* Mobile */
-@media (max-height: 756px) {
-      section.regalos {
-        height: 65vh;
-      }
-}
-
-
-@media (max-height: 770px) {
-  section.regalos {
-    height: 65vh;
-  }
-  
-}
 @media (max-height: 690px) {
   section.regalos {
     height: 65vh;
@@ -54,7 +41,7 @@
   }
 
   section.regalos {
-    height: 50vh;
+    height: 55vh;
   }
 
   .modo-hashtag {

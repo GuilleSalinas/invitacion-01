@@ -310,7 +310,7 @@ section.instagram {
   font-family: "Poppins", Sans-serif;
   font-size: 32px;
   font-weight: 420;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* padding-top: 10rem; */
 }
 
