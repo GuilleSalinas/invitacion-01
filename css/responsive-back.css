@@ -1,16 +1,18 @@
 /* Mobile */
-@media (max-height: 648px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 4) {
+  /* CSS */
   section.regalos {
-    
-    height: 65vh;
-    
-  }
-  
-  }
-
+        height: 65vh;
+      }
 }
 
 
+@media (max-height: 648px) {
+  section.regalos {
+    height: 65vh;
+  }
+  
+  }
 
 @media (max-height: 770px) {
   section.regalos {
