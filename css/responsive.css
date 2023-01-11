@@ -3,29 +3,7 @@
       section.regalos {
         height: 65vh;
       }
-
-      section.portada .content-portada h2 {
-        font-size: 26px;
-        top: 6rem;
-      }
-
-      section.portada .content-portada h1 {
-        font-size: 100px;
-        top: 10rem;
-      }
-      
-      section.portada .content-portada span.fecha {
-        font-size: 26px;
-        top: 14rem;
-      }
-
-      /* texto portada */
-      section.portada .box-frase-portada p {
-        font-size: 15px;
-        top: 18rem;
-      }
-
-  }
+}
 
 
 @media (max-height: 770px) {
